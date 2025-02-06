@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kingsway Academy</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" type="image/x-icon" href="logo/top.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="m-0 font-sans">
+    <!-- Header -->
+    <header class="bg-white text-gray-900 py-4 px-6 flex justify-between items-center sticky top-0 ">
+      <img class="w-[158px] h-[62px] ml-[11%]" src="logo/nev.png" alt="logo" />
+      <nav class="hidden md:flex">
+        <div class="space-x-8">
+          <a href="#home" class="text-black hover:bg-gray-200 px-4 py-2 rounded">Home</a>
+          <a href="#about" class="text-black hover:bg-gray-200 px-4 py-2 rounded">About Us</a>
+          <a href="#academics" class="text-black hover:bg-gray-200 px-4 py-2 rounded">Academics</a>
+          <a href="#contact" class="text-black hover:bg-gray-200 px-4 py-2 rounded">Contact Us</a>
+        </div>
+      </nav>
+
+      <button
+        onclick="toggleNav()"
+        class="md:hidden text-gray-700 text-2xl focus:outline-none"
+        aria-label="Toggle navigation"
+      >
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </header>
+
+    <!-- Mobile Navigation -->
+    <div id="mobile-nav" class="hidden flex-col bg-white w-full absolute top-16 left-0 z-50 shadow-lg md:hidden">
+      <a href="#home" class="py-4 text-center border-b border-gray-300">Home</a>
+      <a href="#about" class="py-4 text-center border-b border-gray-300">About Us</a>
+      <a href="#academics" class="py-4 text-center border-b border-gray-300">Academics</a>
+      <a href="#contact" class="py-4 text-center border-b border-gray-300">Contact Us</a>
+    </div>
+
+    <!-- 1st Section -->
+    <section class="bg-gradient-to-b from-[#00092D] to-[#0D2053] flex h-[45rem]">
+      <div class="mt-[90px] ml-[14%]  ">
+        <h2 class="text-5xl font-bold leading-snug text-white">
+          Unlocking the Door to Future <br />
+          Success: IT Diploma <br />
+          Opportunities
+        </h2>
+        <button class="bg-[#ffcc01] text-black py-2 px-4 rounded-3xl mt-[10%] w-[40%] h-[10%]">Book A Counseling</button>
+        <div>
+            <h3 class="mt-[7%] ml-[400px] text-3xl font-bold leading-snug text-white">Our International Job Providers</h3>
+        </div>
+        <div class="flex flex-wrap justify-center gap-6 mt-6 md:gap-8">
+            <img  class="h-10 md:h-16" src="logo/1.png" alt="1">
+            <img class="h-10 md:h-16"  src="logo/2.png" alt="2">
+            <img  class="h-10 md:h-16" src="logo/4.png" alt="4">
+            <img  class="h-10 md:h-16" src="logo/5.png" alt="5">
+            <img  class="h-10 md:h-16" src="logo/6.png" alt="6">
+            <img  class="h-10 md:h-16" src="logo/7.png" alt="7">
+        </div>
+      </div>
+    </section>
+    <!-- 2nd Section -->
+    <section>
+        <div class="flex flex-wrap justify-center mt-[8%] md:gap-8 ">
+            <div>
+            <h2 class="text-3xl font-bold leading-snug text-black">Why Kingsway?</h2>
+            <br>
+            <h3 class="text-xl font-bold leading-snug text-black">Your search is unique. Just like you.</h3>
+            <br>
+            <p class="text-lg">Our IT Diploma program combines an innovative curriculum,<br>
+                experienced faculty, industry partnerships, and career support for<br>
+                students to excel in IT.<br>
+                <br>
+                Our campus has state-of-the-art facilities and resources, ensuring our<br>
+                student’s access to the latest technologies and tools. We believe in<br>
+                promoting inclusion and diversity in all aspects of our college and<br>
+                upholding the highest standards of integrity and ethics.
+            </p>
+            <button class="bg-[#0089ff] text-white mt-[8%] w-[150px] h-[50px] rounded-3xl ">Learn More</button>
+        </div>
+        <img class="h-[400px] ml-[10%]" src="allimg/Group.png" alt="big">
+    </div>
+    </section>
+    <!-- 3rd Section -->
+    <section>
+        <div class="flex flex-wrap justify-center mt-[6%]">
+        <h2 class="text-3xl font-bold leading-snug text-black">Course Overview</h2>
+    </div>
+    <div class="flex justify-center gap-11 mt-10">
+    <div class=" bg-[#3098f3] h-[450px] w-[605px] rounded-xl ">
+        <div class="mt-20 ml-9">
+        <img src="logo/b.svg" alt="logo">
+        <h2 class="text-3xl font-bold leading-snug text-white mt-9">Pearson Level 3 Diploma in IT</h2>
+        <h3 class="text-xl font-bold leading-snug text-white mt-2">Empowering Your IT Career in Nepal</h3>
+        <p class="text-lg text-white mt-8">The Pearson Level 3 Diploma in IT, offered at Kingsway Academy,<br>
+            is a comprehensive program designed to equip<br>
+            you with the skills and knowledge essential for a successful<br>
+            career in IT.
+        </p>
+    </div>
+</div>
+<div class=" bg-[#3098f3] h-[450px] w-[605px] rounded-xl ">
+    <div class="mt-20 ml-9">
+    <img src="logo/b.svg" alt="logo">
+    <h2 class="text-3xl font-bold leading-snug text-white mt-9">Pearson Subsidiary Diploma in IT</h2>
+        <h3 class="text-xl font-bold leading-snug text-white mt-2">Building a Strong IT Foundation in Nepal</h3>
+        <p class="text-lg text-white mt-8">The Pearson Subsidiary Diploma in IT, offered at Kingsway<br>
+            Academy in Nepal, provides you with a strong foundation in<br>
+            IT concepts and practical skills, setting you toward a<br>
+            rewarding career in information technology.
+        </p>
+</div>
+</div>
+    </div>
+    </section>
+    <!-- 4th Section -->
+    <script src="app.js"></script>
+  </body>
+</html>

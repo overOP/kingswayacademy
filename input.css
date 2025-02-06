@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+.mobile-nav {
+    display: none;
+  }
+  .mobile-nav.active {
+    display: flex;
+  }
